@@ -1,0 +1,103 @@
+/* Tổng thể */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fdf4f5; /* Hồng pastel nhạt */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container ứng dụng */
+.app-container {
+    text-align: center;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    border: 2px solid #ffc2d1; /* Viền hồng pastel */
+}
+
+/* Tiêu đề */
+h1 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #5b8c85; /* Xanh pastel đậm */
+}
+
+/* Flashcard */
+.flashcard-container {
+    margin: 40px 0;
+    padding: 40px;
+    background: #edf9ff; /* Hồng pastel nhạt */
+  
+    border-radius: 15px;
+    font-size: 42px;
+    font-weight: ;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #65568e; /* Xanh pastel đậm */
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.flashcard-container:hover {
+    background-color: #e4d0ff; /* Hồng đậm hơn khi hover */
+    border-color: #f3ffec;
+}
+
+/* Buttons */
+.buttons button {
+    margin: 10px;
+    padding: 12px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #ced5f8; /* Xanh pastel */
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.buttons button:hover {
+    background-color: #f5f89d; /* Xanh pastel đậm hơn */
+    transform: scale(1.05);
+}
+
+.buttons button:active {
+    background-color: #d1fff6; /* Xanh đậm nhất khi nhấn */
+    transform: scale(0.95);
+}
+
+/* Hiệu ứng pastel đẹp */
+body::before {
+    content: '';
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    width: 300px;
+    height: 300px;
+    background: #fffced; /* Hồng pastel */
+    border-radius: 50%;
+    z-index: -1;
+    opacity: 0.7;
+    filter: blur(100px);
+}
+
+body::after {
+    content: '';
+    position: absolute;
+    bottom: -50px;
+    right: -50px;
+    width: 400px;
+    height: 400px;
+    background: #cbe7ff; /* Xanh pastel */
+    border-radius: 50%;
+    z-index: -1;
+    opacity: 0.5;
+    filter: blur(100px);
+}
