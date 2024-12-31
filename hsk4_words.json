@@ -1,52 +1,52 @@
 [
     {
         "word": "经验",
-        "meaning": "kinh nghiệm",
+        "meaning": "kinh nghiệm (jīng yàn)",
         "pinyin": "jīng yàn"
     },
     {
         "word": "爱情",
-        "meaning": "tình yêu",
+        "meaning": "tình yêu (ài qíng)",
         "pinyin": "ài qíng"
     },
     {
         "word": "跑步",
-        "meaning": "chạy bộ",
+        "meaning": "chạy bộ (pǎo bù)",
         "pinyin": "pǎo bù"
     },
     {
         "word": "关系",
-        "meaning": "mối quan hệ",
+        "meaning": "mối quan hệ (guān xì)",
         "pinyin": "guān xì"
     },
     {
         "word": "价格",
-        "meaning": "giá cả",
+        "meaning": "giá cả (jià gé)",
         "pinyin": "jià gé"
     },
     {
         "word": "火车",
-        "meaning": "tàu hỏa",
+        "meaning": "tàu hỏa (huǒ chē)",
         "pinyin": "huǒ chē"
     },
     {
         "word": "锻炼",
-        "meaning": "luyện tập",
+        "meaning": "luyện tập (duàn liàn)",
         "pinyin": "duàn liàn"
     },
     {
         "word": "饺子",
-        "meaning": "bánh bao",
+        "meaning": "bánh bao (jiǎo zi)",
         "pinyin": "jiǎo zi"
     },
     {
         "word": "医生",
-        "meaning": "bác sĩ",
+        "meaning": "bác sĩ (yī shēng)",
         "pinyin": "yī shēng"
     },
     {
         "word": "地图",
-        "meaning": "bản đồ",
+        "meaning": "bản đồ (dì tú)",
         "pinyin": "dì tú"
     }
 ]
