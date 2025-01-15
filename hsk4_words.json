@@ -1,52 +1,53 @@
 [
-    {
-        "word": "经验",
-        "meaning": "kinh nghiệm (jīng yàn)",
-        "pinyin": "jīng yàn"
-    },
-    {
-        "word": "爱情",
-        "meaning": "tình yêu (ài qíng)",
-        "pinyin": "ài qíng"
-    },
-    {
-        "word": "跑步",
-        "meaning": "chạy bộ (pǎo bù)",
-        "pinyin": "pǎo bù"
-    },
-    {
-        "word": "关系",
-        "meaning": "mối quan hệ (guān xì)",
-        "pinyin": "guān xì"
-    },
-    {
-        "word": "价格",
-        "meaning": "giá cả (jià gé)",
-        "pinyin": "jià gé"
-    },
-    {
-        "word": "火车",
-        "meaning": "tàu hỏa (huǒ chē)",
-        "pinyin": "huǒ chē"
-    },
-    {
-        "word": "锻炼",
-        "meaning": "luyện tập (duàn liàn)",
-        "pinyin": "duàn liàn"
-    },
-    {
-        "word": "饺子",
-        "meaning": "bánh bao (jiǎo zi)",
-        "pinyin": "jiǎo zi"
-    },
-    {
-        "word": "医生",
-        "meaning": "bác sĩ (yī shēng)",
-        "pinyin": "yī shēng"
-    },
-    {
-        "word": "地图",
-        "meaning": "bản đồ (dì tú)",
-        "pinyin": "dì tú"
-    }
+
+       
+          {"word": "プログラム", "meaning": "Chương trình (puroguramu)"},
+          {"word": "開発", "meaning": "Phát triển (kaihatsu)"},
+          {"word": "設計", "meaning": "Thiết kế (sekkei)"},
+          {"word": "実装", "meaning": "Triển khai (jissou)"},
+          {"word": "テスト", "meaning": "Kiểm thử (tesuto)"},
+          {"word": "バグ", "meaning": "Lỗi (bagu)"},
+          {"word": "デバッグ", "meaning": "Gỡ lỗi (debaggu)"},
+          {"word": "仕様", "meaning": "Thông số kỹ thuật (shiyou)"},
+          {"word": "要件", "meaning": "Yêu cầu (youken)"},
+          {"word": "コード", "meaning": "Mã nguồn (kōdo)"},
+          {"word": "ソースコード", "meaning": "Mã nguồn (sōsu kōdo)"},
+          {"word": "データベース", "meaning": "Cơ sở dữ liệu (dētabēsu)"},
+          {"word": "サーバー", "meaning": "Máy chủ (sābā)"},
+          {"word": "クライアント", "meaning": "Máy khách (kuraianto)"},
+          {"word": "ネットワーク", "meaning": "Mạng (nettowāku)"},
+          {"word": "セキュリティ", "meaning": "Bảo mật (sekyuriti)"},
+          {"word": "インターフェース", "meaning": "Giao diện (intāfēsu)"},
+          {"word": "アルゴリズム", "meaning": "Thuật toán (arugorizumu)"},
+          {"word": "オペレーティングシステム", "meaning": "Hệ điều hành (operētingu shisutemu)"},
+          {"word": "メモリ", "meaning": "Bộ nhớ (memori)"},
+          {"word": "プロセッサ", "meaning": "Bộ xử lý (purosessa)"},
+          {"word": "クラウド", "meaning": "Đám mây (kuraudo)"},
+          {"word": "API", "meaning": "Giao diện lập trình ứng dụng (ēpīai)"},
+          {"word": "フレームワーク", "meaning": "Khung làm việc (furēmuwāku)"},
+          {"word": "ライブラリ", "meaning": "Thư viện (raiburari)"},
+          {"word": "コンパイル", "meaning": "Biên dịch (konpairu)"},
+          {"word": "エラー", "meaning": "Lỗi (erā)"},
+          {"word": "ユーザー", "meaning": "Người dùng (yūzā)"},
+          {"word": "パスワード", "meaning": "Mật khẩu (pasuwādo)"},
+          {"word": "ドメイン", "meaning": "Miền (domein)"},
+          {"word": "ホスト", "meaning": "Máy chủ lưu trữ (hosuto)"},
+          {"word": "ファイル", "meaning": "Tập tin (fairu)"},
+          {"word": "フォルダ", "meaning": "Thư mục (foruda)"},
+          {"word": "アップロード", "meaning": "Tải lên (appurōdo)"},
+          {"word": "ダウンロード", "meaning": "Tải xuống (daunrōdo)"},
+          {"word": "バックアップ", "meaning": "Sao lưu (bakkuappu)"},
+          {"word": "ソフトウェア", "meaning": "Phần mềm (sofutowea)"},
+          {"word": "ハードウェア", "meaning": "Phần cứng (hādowea)"},
+          {"word": "ウイルス", "meaning": "Vi rút (uirusu)"},
+          {"word": "ハッカー", "meaning": "Tin tặc (hakkā)"},
+          {"word": "プライバシー", "meaning": "Quyền riêng tư (puraibashī)"},
+          {"word": "仮想", "meaning": "Ảo (kasou)"},
+          {"word": "実行", "meaning": "Chạy, thực thi (jikkou)"},
+          {"word": "圧縮", "meaning": "Nén (asshuku)"},
+          {"word": "解凍", "meaning": "Giải nén (kaitou)"},
+          {"word": "復元", "meaning": "Khôi phục (fukugen)"}
+        
+      
+      
 ]

@@ -7,17 +7,26 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Loại bỏ thanh cuộn dọc */
+    height: 100%; /* Đảm bảo chiếm toàn bộ chiều cao màn hình */
 }
 
 /* Container ứng dụng */
 .app-container {
     text-align: center;
     background: #ffffff;
-    padding: 30px;
+    padding: 20px;
     border-radius: 20px;
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
     width: 320px;
     border: 2px solid #ffc2d1; /* Viền hồng pastel */
+    
+    
 }
 
 /* Tiêu đề */
@@ -35,8 +44,8 @@ h1 {
   
     border-radius: 15px;
     font-size: 42px;
-    font-weight: ;
-    height: 100px;
+   
+    height: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -50,9 +59,16 @@ h1 {
 }
 
 /* Buttons */
+.buttons {
+    display: flex;
+    flex-direction: column; /* Hiển thị theo chiều dọc */
+    align-items: center;
+    gap: 0; /* Loại bỏ khoảng cách giữa các nút */
+}
 .buttons button {
-    margin: 10px;
-    padding: 12px 30px;
+    width: 80%; /* Độ rộng nút, có thể điều chỉnh */
+    margin: 5px;
+    padding: 20px;
     font-size: 16px;
     border: none;
     border-radius: 10px;
@@ -100,4 +116,7 @@ body::after {
     z-index: -1;
     opacity: 0.5;
     filter: blur(100px);
+}
+.buttons button:not(:first-child) {
+    margin-top: -1px; /* Giảm trùng lặp đường viền giữa các nút */
 }
